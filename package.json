@@ -1,5 +1,5 @@
 {
-  "name": "plugin-manager",
+  "name": "@clin-player/plugin-manager",
   "version": "0.1.1",
   "description": "Plugin manager for any module. Search in npm, install and remove plugins.",
   "author": "Oleg Akinin <kicumkicum@gmail.com>",
