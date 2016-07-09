@@ -1,7 +1,7 @@
 # plugin-manager
 
 ## Functionality
-* [ ] Install plugins
+* [x] Install plugins
 * [ ] Remove plugins
 * [ ] Search plugins in npm
 * [ ] Work with any owner modules
