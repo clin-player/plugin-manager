@@ -1,0 +1,30 @@
+{
+  "name": "plugin-manager",
+  "version": "0.1.0",
+  "description": "Plugin manager for any module. Search in npm, install and remove plugins.",
+  "author": "Oleg Akinin <kicumkicum@gmail.com>",
+  "homepage": "https://github.com/clin-player/plugin-manager#readme",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clin-player/plugin-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/clin-player/plugin-manager/issues"
+  },
+  "keywords": [
+    "node.js",
+    "plugin",
+    "manager"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "npm": "^3.10.5"
+  }
+}
