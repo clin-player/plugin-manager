@@ -33,5 +33,21 @@ module.exports = (function() {
 				npm.load('', () => resolve());
 			});
 		}
+
+		/**
+		 * @override
+		 */
+		install(pluginName) {
+			return this._initPromise
+				.then(() => {
+					npm.commands.install([this._prefix + '-' + pluginName], (err) => {
+						if (err) {
+							return Promise.reject();
+						} else {
+							return Promise.resolve();
+						}
+					});
+				});
+		}
 	};
 })();
