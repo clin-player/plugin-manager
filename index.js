@@ -30,7 +30,7 @@ module.exports = (function() {
 			 * @private
 			 */
 			this._initPromise = new Promise((resolve, reject) => {
-				npm.load('', () => resolve());
+				npm.load('', (err) => err ? reject() : resolve());
 			});
 		}
 
