@@ -1,2 +1,7 @@
 # plugin-manager
-plugin manager using in clin-player
+
+## Functionality
+* [ ] Install plugins
+* [ ] Remove plugins
+* [ ] Search plugins in npm
+* [ ] Work with any owner modules
